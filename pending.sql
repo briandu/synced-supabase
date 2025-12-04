@@ -1,0 +1,2 @@
+-- Pending schema deltas (add here, then promote to a timestamped migration)
+-- Currently empty.

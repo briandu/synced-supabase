@@ -1,0 +1,31 @@
+# Supabase CLI
+.supabase/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database dumps (keep full.sql in repo, but ignore generated dumps)
+*.dump
+*.sql.backup
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
