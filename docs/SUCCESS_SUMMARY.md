@@ -1,6 +1,8 @@
 # ✅ Onboarding Transaction Function - COMPLETE AND WORKING!
 
-**Date:** January 6, 2025  
+**Created**: 2025-01-06  
+**Last Updated**: 2025-01-06
+
 **Status:** ✅ **DEPLOYED AND TESTED**
 
 ---
@@ -46,7 +48,7 @@ Tests:       1 passed, 1 total
 - `docs/functions/complete_onboarding_transaction.md` - Function reference
 - `docs/testing/function-testing-guide.md` - Testing guide
 - `docs/integration/onboarding-backend-integration.md` - Frontend integration guide
-- `NEXT_STEPS.md` - Frontend integration instructions
+- `docs/NEXT_STEPS.md` - Frontend integration instructions
 - `README.md` - Updated with new function references
 
 ---
@@ -117,7 +119,7 @@ if (error) {
 
 ## 📋 Next Steps (Frontend Integration)
 
-See `NEXT_STEPS.md` for detailed frontend integration guide.
+See `docs/NEXT_STEPS.md` for detailed frontend integration guide.
 
 **File to Update**: `src/pages/onboarding/recommendation-source.js` (in synced-admin-portal repo)
 
@@ -160,7 +162,7 @@ To add more tests, see `docs/testing/function-testing-guide.md`
 - [x] Function tested and working
 - [x] Documentation complete
 - [x] Test suite passing
-- [ ] Frontend code updated (see NEXT_STEPS.md)
+- [ ] Frontend code updated (see docs/NEXT_STEPS.md)
 - [ ] End-to-end testing complete
 - [ ] Production deployment
 

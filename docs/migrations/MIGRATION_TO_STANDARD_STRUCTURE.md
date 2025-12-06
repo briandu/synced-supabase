@@ -1,5 +1,8 @@
 # Migration to Standard Supabase Structure
 
+**Created**: 2024-12-05  
+**Last Updated**: 2024-12-05
+
 ## What Changed (Dec 5, 2024)
 
 We reorganized the project to follow the standard Supabase CLI structure for better scalability and team collaboration.

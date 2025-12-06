@@ -1,5 +1,8 @@
 # Next Steps for Onboarding Transaction Function
 
+**Created**: 2025-01-06  
+**Last Updated**: 2025-01-06
+
 ## ✅ What's Complete (Backend)
 
 All backend work is **complete and ready to use**:
@@ -256,4 +259,5 @@ if (error) {
 
 Questions? Check:
 1. `docs/integration/onboarding-backend-integration.md` - Complete integration guide with examples
-2. `docs/functions/complete_onb
+2. `docs/functions/complete_onboarding_transaction.md` - Function reference
+3. `docs/testing/function-testing-guide.md` - Testing guide

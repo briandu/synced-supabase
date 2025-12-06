@@ -1,5 +1,8 @@
 # Quick Migration Guide
 
+**Created**: 2025-01-06  
+**Last Updated**: 2025-01-06
+
 ## Step 1: Apply Migration 1 (Schema Columns)
 
 1. Open: https://supabase.com/dashboard/project/tepdgpiyjluuddwgboyy

@@ -1,0 +1,74 @@
+# Cursor AI Rules for Supabase Project
+
+## Documentation Organization
+
+### File Placement Rules
+**IMPORTANT**: All documentation files MUST be placed in the `docs/` directory, NOT in the project root.
+
+- **General documentation**: Place in `docs/`
+- **Migration-related docs**: Place in `docs/migrations/`
+- **Testing documentation**: Place in `docs/testing/`
+- **Function documentation**: Place in `docs/functions/`
+- **Integration guides**: Place in `docs/integration/`
+- **Architecture documentation**: Place in `docs/architecture/`
+
+**Exception**: Only `README.md` should remain in the project root as it serves as the main project documentation.
+
+### Documentation Dating Convention
+All documentation files MUST include a creation/last updated date in the header using this format:
+
+```markdown
+# Document Title
+
+**Created**: YYYY-MM-DD  
+**Last Updated**: YYYY-MM-DD
+
+[Rest of content...]
+```
+
+**When to update the date**:
+- **Created**: Set once when the file is first created
+- **Last Updated**: Update whenever substantial changes are made to the document
+
+### Documentation File Naming
+- Use UPPERCASE with underscores for documentation files: `FEATURE_NAME_GUIDE.md`
+- Use descriptive names that indicate the content: `STRIPE_WEBHOOK_SETUP_GUIDE.md`
+- Include the purpose in the name when applicable: `_GUIDE.md`, `_PLAN.md`, `_SUMMARY.md`, `_COMPLETE.md`
+
+## Code Organization
+
+### Migration Files
+- Place all SQL migration files in `migrations/` directory
+- Use timestamp prefix format: `YYYYMMDDHHMMSS_description.sql`
+- Document migrations in `docs/migrations/` as needed
+
+### Scripts
+- Place utility scripts in `scripts/` directory
+- Organize by purpose: `scripts/migrations/`, `scripts/seeding/`, `scripts/utilities/`, `scripts/fixes/`
+
+### Tests
+- Place all test files in `tests/` directory
+- Follow naming convention: `*.test.js` for test files
+- Keep test documentation in `docs/testing/`
+
+## General Guidelines
+
+1. **Never create documentation in the root directory** (except README.md)
+2. **Always add dates to new documentation files**
+3. **Update the "Last Updated" date when making substantial changes**
+4. **Keep documentation organized by category in appropriate subdirectories**
+5. **Reference documentation using relative paths from project root**
+6. **When creating setup or status documents, place them in the appropriate docs subdirectory immediately**
+
+## Examples
+
+### ✅ Good
+- Creating `docs/migrations/NEW_FEATURE_MIGRATION_GUIDE.md` with date header
+- Updating existing docs and changing the "Last Updated" date
+- Placing test guides in `docs/testing/`
+
+### ❌ Bad
+- Creating `SETUP_COMPLETE.md` in the project root
+- Creating documentation without date headers
+- Placing migration documentation in the root directory
+- Forgetting to update "Last Updated" when making changes
