@@ -98,9 +98,10 @@ See [`docs/migrations/MIGRATION_SCRIPT_SEQUENCE.md`](docs/migrations/MIGRATION_S
 ### Functions (`functions/`)
 
 PostgreSQL functions for complex transactional operations:
-- **Example**: `create_organization_with_initial_data()` - Creates organization with all initial data in a single transaction
+- **Example**: `create_organization_with_initial_data()` - Example template for creating transactional operations
+- **Onboarding**: `complete_onboarding_transaction()` - Handles complete onboarding process in a single atomic transaction
 
-See [`docs/architecture/SUPABASE_TRANSACTIONAL_OPERATIONS.md`](docs/architecture/SUPABASE_TRANSACTIONAL_OPERATIONS.md) for details.
+See [`docs/architecture/SUPABASE_TRANSACTIONAL_OPERATIONS.md`](docs/architecture/SUPABASE_TRANSACTIONAL_OPERATIONS.md) and [`docs/functions/complete_onboarding_transaction.md`](docs/functions/complete_onboarding_transaction.md) for details.
 
 ### Scripts (`scripts/`)
 
@@ -131,6 +132,8 @@ Comprehensive documentation organized by topic:
 
 - **`docs/migrations/`**: Migration guides, status, and feature-specific docs
 - **`docs/architecture/`**: Database architecture decisions and patterns
+- **`docs/functions/`**: Database function documentation
+- **`docs/integration/`**: Integration guides for frontend applications
 - **`docs/testing/`**: Testing guides and plans
 - **`docs/scripts/`**: Script documentation (to be added)
 
@@ -139,6 +142,9 @@ Key documents:
 - [`SUPABASE_RUNNING_GUIDE.md`](docs/migrations/SUPABASE_RUNNING_GUIDE.md) - Setup and running guide
 - [`APPLY_MIGRATIONS_GUIDE.md`](docs/migrations/APPLY_MIGRATIONS_GUIDE.md) - How to apply migrations
 - [`SUPABASE_TRANSACTIONAL_OPERATIONS.md`](docs/architecture/SUPABASE_TRANSACTIONAL_OPERATIONS.md) - Transactional operations guide
+- [`complete_onboarding_transaction.md`](docs/functions/complete_onboarding_transaction.md) - Onboarding function documentation
+- [`onboarding-backend-integration.md`](docs/integration/onboarding-backend-integration.md) - Frontend integration guide
+- [`function-testing-guide.md`](docs/testing/function-testing-guide.md) - How to test database functions
 
 ## Migration Workflow
 
